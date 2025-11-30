@@ -281,7 +281,6 @@ class _MusicHomePageState extends State<MusicHomePage> {
                                     tooltip: 'Previous',
                                   ),
                                   const SizedBox(width: 16),
-                                  // Play/Pause Button
                                   Container(
                                     decoration: BoxDecoration(
                                       shape: BoxShape.circle,
@@ -313,7 +312,6 @@ class _MusicHomePageState extends State<MusicHomePage> {
                                     ),
                                   ),
                                   const SizedBox(width: 16),
-                                  // Next Button
                                   IconButton(
                                     iconSize: 32,
                                     onPressed: _playNext,
@@ -333,7 +331,6 @@ class _MusicHomePageState extends State<MusicHomePage> {
                   },
                 ),
               ),
-              // Playlist Section
               Expanded(
                 flex: 1,
                 child: Container(
